@@ -13,12 +13,13 @@ public class Pperson {
     static {
         personCount = 40;
     }
-//    public static void main(String[] args) {
-//        System.out.println(Pperson.personCount); 
-//        Pperson p = new Pperson();
-//        System.out.println(Pperson.personCount);
-//        Pperson.personCount = 100; 
-//        p = new Pperson();
-//        System.out.println(Pperson.personCount);
-//     }	
+    
+    public static void main(String[] args) {
+        System.out.println(Pperson.personCount); 
+        Pperson p = new Pperson();
+        System.out.println(Pperson.personCount);
+        Pperson.personCount = 100; 
+        p = new Pperson();
+        System.out.println(Pperson.personCount);
+     }	
 }

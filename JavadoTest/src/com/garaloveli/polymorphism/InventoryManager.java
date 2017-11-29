@@ -17,7 +17,8 @@ public class InventoryManager {
 	private Automobile featuredAuto = new Car();
 	
 	public void addFeaturedAuto (Automobile auto) {
-		featuredAuto = auto;
+		this.featuredAuto = auto;
+		System.out.println("Adding featured auto #" + this.featuredAuto.getVIN());
 	}
 	
 	public void addAutomobile(Automobile a) {

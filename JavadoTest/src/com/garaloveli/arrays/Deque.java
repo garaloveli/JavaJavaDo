@@ -5,7 +5,9 @@ import java.util.ArrayDeque;
 public class Deque {
 	
 	public static void main(String[] args) {
-		ArrayDeque deque = new ArrayDeque();
+		ArraysDemo.test();
+		
+		ArrayDeque<String> deque = new ArrayDeque<>();
 		deque.offerFirst("center");
 		deque.offerFirst("Bruce Banner"); // could also call addFirst
 		deque.offerLast("Barry Allen");
