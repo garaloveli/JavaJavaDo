@@ -5,6 +5,8 @@ import java.util.ArrayDeque;
 public class Deque {
 	
 	public static void main(String[] args) {
+		TreeSetDemo.test();
+		
 		ArraysDemo.test();
 		
 		ArrayDeque<String> deque = new ArrayDeque<>();
