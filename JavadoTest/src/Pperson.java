@@ -16,10 +16,10 @@ public class Pperson {
     
     public static void main(String[] args) {
         System.out.println(Pperson.personCount); 
-        Pperson p = new Pperson();
+        Pperson pVar = new Pperson();
         System.out.println(Pperson.personCount);
         Pperson.personCount = 100; 
-        p = new Pperson();
+        pVar = new Pperson();
         System.out.println(Pperson.personCount);
      }	
 }
